@@ -60,7 +60,11 @@ p {
 	color: #898d90;
 	line-height: 1.8;
 }
-
+font1{
+	font-family: 'Black Han Sans', sans-serif;
+	font-size: 40;
+	color: white;
+}
 img {
 	max-width: 100%;
 }
@@ -707,6 +711,12 @@ ol {
 	float: left;
 	position: relative;
 }
+.hover-links-font{
+	font-family: 'Black Han Sans', sans-serif;
+	font-size: 30px;
+	color: whitesmoke;
+	opacity: 1;
+}
 
 .gallery-item .hover-links {
 	position: absolute;
@@ -742,7 +752,7 @@ ol {
 }
 
 .gallery-item:hover .hover-links {
-	opacity: 1;
+	opacity: 0.9;
 }
 
 .gallery-item:hover .site-btn {
